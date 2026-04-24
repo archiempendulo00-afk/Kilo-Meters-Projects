@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kilo Meters Projects</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            min-height: 100%;
+        }
+        body {
+            position: relative;
+            overflow-x: hidden;
+            background-color: #e8f1fb;
+            background-image: radial-gradient(circle at 0% 0%, lightgrey, transparent), radial-gradient(circle at 100% 100%, rgb(139, 158, 165), transparent);
+            background-blend-mode: color;
+        }
+        h1, h2, h6 {
+            margin: 0;
+            padding: 0;
+            line-height: 1;
+        }
+        header {
+            position: relative;
+            overflow-x: hidden;
+            background-color: #e8f1fb;
+            background-image: radial-gradient(circle at 0% 0%, lightgrey, transparent), radial-gradient(circle at 100% 100%, rgb(139, 158, 165), transparent);
+            background-blend-mode: color;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        header h1 {
+            display: block;
+            width: 100%;
+            font-size: 10rem;
+            letter-spacing: 0rem;
+            text-align: center;
+        }
+        .kmp-tight {
+            display: inline-block;
+            margin-left: -0.2em;
+        }
+        header h2 {
+            font-size: 2rem;
+            width: 100%;
+            letter-spacing: 0rem;
+            word-spacing: 1.5rem;
+            text-align: center;
+            margin-top: -1.5rem;
+        }
+        header h6 {
+            font-size: 1.5rem;
+            width: 100%;
+            letter-spacing: 0.6cm;
+            text-align: center;
+            margin-top: -0.4rem;
+        }
+        nav {
+            background-color: yellow;
+            padding: 0.5rem ;
+            display: flex;
+            justify-content: center;
+            
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-color: transparent;
+        }
+        nav li {
+            margin: 0.5rem;
+        }
+        nav a {
+            color: black;
+            text-decoration: underline;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        .marquee-wrap {
+            overflow: hidden;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .marquee-content {
+            display: inline-flex;
+            animation: scroll-left 16s linear infinite;
+            background-color: lightgrey;
+        }
+        .marquee-content span {
+            white-space: nowrap;
+            padding: 0 2rem;
+            font-size: 1em;
+        }
+        @keyframes scroll-left {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+        table {
+            border-collapse: separate;
+            border-spacing: 1rem 0.8rem;
+            width: 100%;
+            margin: 0 auto;
+            background-color: transparent;
+        }
+        table td {
+            border: none;
+            background-color: blue;
+            border-radius: 999px;
+            padding: 0.5rem 1rem;
+            color: white;
+            min-width: 45%;
+        }
+        table td p {
+            margin: 0;
+            font-weight: bold;
+        }
+        .mobile-menu-btn {
+            display: none;
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background-color: black;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><span style="color: yellow;">K</span><span class="kmp-tight" style="color: blue;">MP</span></h1>
+        <h2>Kilo Meters Projects</h2>
+        <h6>SERVICES</h6>
+        <div class="marquee-wrap">
+            <div class="marquee-content">
+                <span style="color: darkgray;">OUR SERVICES</span>
+                <span style="color: snow;">OUR SERVICES</span>
+                <span style="color: darkgray;">OUR SERVICES</span>
+                <span style="color: snow;">OUR SERVICES</span>
+                <span style="color: darkgray;">OUR SERVICES</span>
+                <span style="color: snow;">OUR SERVICES</span>
+                <span style="color: darkgray;">OUR SERVICES</span>
+                <span style="color: snow;">OUR SERVICES</span>
+            </div>
+        </div>
+        <table style="width: 100%; margin-top: 2rem; text-align: center;">
+            <tr>
+                <td><p>AUTO ELECTRICIAN</p></td>
+                <td><p>DIESEL MECHANIC</p></td>
+            </tr>
+            <tr>
+                <td><p>BOILER-MAKER</p></td>
+                <td><p>EVENTS MANAGEMENT</p></td>
+            </tr>
+        </table>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About us</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#Contact">Contact us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="Home" style="text-align: center; margin-top: 2rem;">
+            <h2>Home</h2>
+            <p style="color: rgb(0, 0, 0); font-size: 1.2rem;">Welcome to Kilo Meters Projects. We provide top-notch services in auto electrician, diesel mechanic, boiler-making, and events management.</p>
+        </section>
+        <section id="About" style="text-align: center; margin-top: 2rem;">
+            <h2>About us</h2>
+            <p style="color: rgb(0, 0, 0); font-size: 1.2rem;">Kilo Meters Projects is a leading provider of specialized services. Our team of experts is dedicated to delivering quality work.</p>
+            <div class="company registration" style="margin-top: 20px; background-color: lightgrey; display: inline-block; padding: 10px 20px; border-radius: 5px;">
+                <p style="margin: 0; font-weight: bold;">Company Registration Number: 2018/243207/07</p>
+            </div>
+        </section>
+        <section id="Services" style="text-align: center; margin-top: 2rem;">
+            <h2>Services</h2>
+            <p style="color: rgb(0, 0, 0); font-size: 1.2rem;">We offer a wide range of services including:</p>
+            <ul style="list-style-type: none; padding: 0;">
+                <li style="margin-bottom: 10px;"><i class="fas fa-check-circle" style="color: green; margin-right: 10px;"></i>Diagnostic</li>
+                <li style="margin-bottom: 10px;"><i class="fas fa-check-circle" style="color: green; margin-right: 10px;"></i>Car & Machine Rewiring</li>
+                <li style="margin-bottom: 10px;"><i class="fas fa-check-circle" style="color: green; margin-right: 10px;"></i>Machine Maintenance</li>
+                <li style="margin-bottom: 10px;"><i class="fas fa-check-circle" style="color: green; margin-right: 10px;"></i>Machine Rentals</li>
+                <li style="margin-bottom: 10px;"><i class="fas fa-check-circle" style="color: green; margin-right: 10px;"></i>Man on site 24/7</li>
+                <li style="margin-bottom: 10px;"><i class="fas fa-check-circle" style="color: green; margin-right: 10px;"></i>Rebuliding of engines</li>
+                <li style="margin-bottom: 10px;"><i class="fas fa-check-circle" style="color: green; margin-right: 10px;"></i>hydraulic cyclinder repairs</li>
+                <li style="margin-bottom: 10px;"><i class="fas fa-check-circle" style="color: green; margin-right: 10px;"></i>hydraulic pump repairs</li>
+                <li style="margin-bottom: 10px;"><i class="fas fa-check-circle" style="color: green; margin-right: 10px;"></i>Transmission Rebuilds</li>
+            </ul>
+        </section>
+        <section id="gallery" style="text-align: center; margin-top: 2rem;">
+            <h2>Gallery</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 20px;">
+                <img src="images/WhatsApp Image 2026-04-21 at 09.23.26.jpeg" alt="Image 1" style="width: 100%; height: auto;">
+                <img src="images/WhatsApp Image 2026-04-21 at 09.23.27.jpeg" alt="Image 2" style="width: 100%; height: auto;">
+                <img src="images/WhatsApp Image 2026-04-21 at 09.23.54.jpeg" alt="Image 3" style="width: 100%; height: auto;">
+                <img src="images/WhatsApp Image 2026-04-21 at 09.23.49.jpeg" alt="Image 4" style="width: 100%; height: auto;">
+                <img src="images/WhatsApp Image 2026-04-21 at 09.23.50.jpeg" alt="Image 5" style="width: 100%; height: auto;">
+                <img src="images/WhatsApp Image 2026-04-21 at 09.23.48.jpeg" alt="Image 6" style="width: 100%; height: auto;">
+                <img src="images/WhatsApp Image 2026-04-21 at 09.23.51.jpeg" alt="Image 7" style="width: 100%; height: auto;">
+                <img src="images/WhatsApp Image 2026-04-21 at 09.23.56.jpeg" alt="Image 8" style="width: 100%; height: auto;">
+                <img src="images/WhatsApp Image 2026-04-21 at 09.23.46.jpeg" alt="Image 9" style="width: 100%; height: auto;">
+            </div>
+        </section>
+        <section id="Contact" style="text-align: center; margin-top: 2rem; background-color: yellow;">
+            <h2>Contact us</h2>
+            <p style="color: rgb(0, 0, 0); font-size: 1.2rem;">Get in touch with us for inquiries or to schedule services.</p>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 20px;">
+                <div style="text-align: center; padding: 20px; border-radius: 8px;">
+                    <p style="font-size: 1.2rem; margin: 0;">
+                        <i class="fas fa-envelope" style="font-size: 2rem; color: #000000; margin-right: 10px;"></i>
+                        <a href="mailto:kilometers.projects@gmail.com" style="text-decoration: none; color: #000000; font-weight: bold;">Email us</a></p></i>
+                    </p>
+                    <p style="font-size: 1.2rem; margin: 0;">
+                        <a href="tel: 079 053 7160" style="text-decoration: none; margin-left: 15px;">
+                            <i class="fas fa-phone" style="font-size: 2rem; color: #000000; margin-right: 10px;"></i>
+                        </a>
+                        <a href="tel: 079 053 7160/063 153 8791" style="text-decoration: none; color: #000000; font-weight: bold;">079 053 7160 / 063 153 8791</a>
+                        <a href="https://wa.me/27790537160" target="_blank" style="text-decoration: none; margin-left: 15px;"><i class="fab fa-whatsapp" style="font-size: 2rem; color: #25D366;"></i></a>
+                        </a>
+                    </p>
+                    <p style="font-size: 1.2rem; margin: 0;">
+                        <i class="fas fa-map-marker-alt" style="font-size: 2rem; color: #000000; margin-right: 10px;"></i>
+                        <span style="color: #000000; font-weight: bold;">2614 MOKOENA STR, PHUMULA SECTION, MIDDELBURG 1053</span></p></i>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<footer style="text-align: center; padding: 20px; background-color: #222; color: #ccc;">
+    <p>&copy; 2026 Kilo Meters Projects. All rights reserved.</p>
+</footer>
+</html>
